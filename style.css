@@ -4,15 +4,15 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: black;
-    color: white;
+    background-color: #f8f0e3;
+    color: #5a5a5a;
     padding: 20px;
 }
 form {
-    background: green;
+    background: #fdf7f2;
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     width: 450px;
 }
 fieldset {
@@ -20,12 +20,12 @@ fieldset {
     margin-bottom: 20px;
     padding: 15px;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 192, 203, 0.2);
 }
 legend {
     font-weight: bold;
     font-size: 1.2em;
-    color: #fff;
+    color: #b56576;
 }
 label {
     display: block;
@@ -36,7 +36,7 @@ input, select, textarea {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #d1a3a4;
     border-radius: 5px;
     font-size: 1em;
 }
@@ -50,16 +50,15 @@ button {
     font-size: 1.1em;
 }
 .submit-btn {
-    background-color: red;
+    background-color: #b56576;
     color: white;
     font-weight: bold;
 }
 .reset-btn {
-    background-color: #dc3545;
+    background-color: #e5989b;
     color: white;
     font-weight: bold;
 }
 button:hover {
     opacity: 0.8;
 }
-
